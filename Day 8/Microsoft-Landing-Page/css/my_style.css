@@ -1,0 +1,86 @@
+body {
+    font-size: 15px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial serif;
+    min-width: 320px;
+    color: black;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h5, p {
+    font-weight: lighter;
+}
+
+img {
+    max-width: 100%;
+}
+
+.introduction {
+    text-align: center;
+    margin: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1084px) {
+    .Surface-F21-LinkNav-Panel .c-link-navigation ul li {
+        width: 33.333%;
+        padding: 10px 5px 10px 5px;
+        float: left;
+        clear: none
+    }
+
+    .Surface-F21-LinkNav-Panel .Surface-LinkNav-Col8, .Surface-F21-LinkNav-Panel .Surface-LinkNav-Col4 {
+        width: 100%
+    }
+
+    .Surface-F21-LinkNav-Panel .m-link-navigation nav.c-link-navigation {
+        margin-top: 20px !important
+    }
+
+    .Surface-LinkNav-Col4 {
+        padding-left: 24px
+    }
+
+    .Surface-Padding-24 {
+        padding-left: 24px !important;
+        padding-right: 24px !important
+    }
+
+    .rtl #mainContent.wdg-global.surfacecom .Surface-Home-Device-Family li {
+        float: right
+    }
+
+    #mainContent.wdg-global.surfacecom .Surface-Home-Device-Family li {
+        width: 33.333%;
+        padding: 5px;
+        float: left
+    }
+
+    .Surface-Home-Device-Carousel ul li .Surface-Home-Device-Carousel-sec, .Surface-Home-Device-Carousel ul li .Surface-Home-Device-Carousel-sec img {
+        width: 475px
+    }
+
+    .Surface-Home-Device-Carousel .Surface-Home-Device-Carousel-content {
+        width: 95%
+    }
+}
+
+@media only screen and (min-width: 1084px) {
+    .rtl #mainContent.wdg-global.surfacecom .Surface-Home-Device-Family li {
+        float: right
+    }
+
+    #mainContent.wdg-global.surfacecom .Surface-Home-Device-Family li {
+        width: 25%;
+        padding: 5px;
+        float: left
+    }
+
+    .Surface-Home-Device-Carousel ul li .Surface-Home-Device-Carousel-sec, .Surface-Home-Device-Carousel ul li .Surface-Home-Device-Carousel-sec img {
+        width: 700px
+    }
+
+    .Surface-Home-Device-Carousel .Surface-Home-Device-Carousel-content {
+        width: 75%
+    }
+}
